@@ -1,7 +1,7 @@
 .background-2 {
     background: #2196F3;
-    height: 452vh;
-    padding-top: 14rem;
+    padding-bottom: 1rem;
+    
 }
 .up {
     text-align: center;
@@ -13,15 +13,16 @@
     height: 30vh;
 }
 .box-2 {
-    background: white;
+    background: red;
     margin-top: -22rem;
-    height: 200vh;
+    /* height: 200vh; */
     padding: 1rem;
 }
 .box-3 {
     background: white;
     margin-top: -18rem;
-    height: 300vh;
+    /* padding-bottom: 20rem; */
+    /* height: 300vh; */
     padding: 1rem;
 }
 .stance {

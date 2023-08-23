@@ -5,7 +5,6 @@
     font-family: Roboto, sans-serif;
 }
 body {
-    height: 300vh;
     overflow-x: hidden;
 }
 .body {
@@ -208,7 +207,7 @@ nav ul {
 }
 .background {
     background: #2196F3;
-    height: 250vh;
+    padding-bottom: 1rem;
     padding-top: 14rem;
 }
 .HHS {
@@ -232,6 +231,6 @@ nav ul {
     text-decoration: none;
 }
 .footer {
-    margin-top: 5rem;
+    margin-top: 2rem;
     text-align: center;
 }
