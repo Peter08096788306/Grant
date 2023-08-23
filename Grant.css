@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
 }
 .body {
-    background-image: url(./images/0429c1e7-67a9-425d-bb6f-89c3391bb479.jfif);
+    background-image: url(./images/grant-logo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -129,7 +129,7 @@ nav ul {
     width: 95%;
     margin: auto;
     position: absolute;
-    left: 3%;
+    left: 2%;
     top: 45%;
     padding: 1rem;
 }
@@ -145,7 +145,7 @@ nav ul {
     position: absolute;
     left: 52%;
     padding: 1rem;
-    width: 40%;
+    width: 45%;
 }
 .get-link:hover {
     
@@ -200,6 +200,10 @@ nav ul {
     border: none;
     padding: 0.7rem;
 }
+.readmore button:hover {
+    background-color: aquamarine;
+    transition: all .3s linear;
+}
 .readmore a {
     color: #2196F3;
     font-size: 18px;
@@ -229,6 +233,9 @@ nav ul {
 }
 .gram a {
     text-decoration: none;
+}
+.gram-2, .d-same-2, .health-2, .Leader-2 {
+    display: none;
 }
 .footer {
     margin-top: 2rem;

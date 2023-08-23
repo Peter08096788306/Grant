@@ -1,0 +1,62 @@
+@media (min-width: 1022px) {
+    .body {
+        background-image: url(./images/grant-logo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* background-blend-mode: v; */
+        height: 70vh;
+    }
+    .header {
+        width: 85%;
+    }
+    .Burger {
+        margin-left: 11rem;
+    }
+    nav {
+        width: 20%;
+    }
+    .gram, .d-same, .health, .Leader {
+        display: none;
+    }
+    .gram-2, .d-same-2, .health-2, .Leader-2 {
+        display: block;
+    }
+    .box-1 {
+        background: #fff;
+        width: 70%;
+        margin: auto;
+        position: absolute;
+        left: 15%;
+        top: 45%;
+        padding: 1rem;
+    }
+    .HHS {
+        width: 70%;
+        margin-top: 0rem;
+    }
+    .HHSs {
+        width: 70%;
+    }
+    .box-3 {
+    background: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 0rem;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    }
+    .background-2 {
+        background: #2196F3;
+        padding-bottom: 1rem;
+        padding-top: 14rem;
+    }
+    .popular {
+        padding: 1rem;
+        width: 70%;
+        margin: auto;
+        background: whitesmoke;
+        margin-top: 66rem;
+    }
+}
