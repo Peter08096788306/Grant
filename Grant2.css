@@ -1,3 +1,8 @@
+.background-2 {
+    background: #2196F3;
+    height: 452vh;
+    padding-top: 14rem;
+}
 .up {
     text-align: center;
 }
@@ -6,4 +11,62 @@
     margin: auto;
     margin-top: 2rem;
     height: 30vh;
+}
+.box-2 {
+    background: white;
+    margin-top: -22rem;
+    height: 200vh;
+    padding: 1rem;
+}
+.box-3 {
+    background: white;
+    margin-top: -18rem;
+    height: 300vh;
+    padding: 1rem;
+}
+.stance {
+    color: grey;
+}
+.stance p {
+    line-height: 1.6;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+.stance p, h2, h3 {
+    margin: 1rem 0rem 1rem;
+}
+.stance ul, ol {
+    margin-left: 2rem;
+    font-size: 15px;
+    line-height: 1.6;
+    /* margin-top: 1rem; */
+}
+.get {
+    left: 5%;
+    /* height: 30vh; */
+}
+.link a {
+    text-decoration: none;
+    color: blue;
+}
+.node {
+    margin-top: 3rem;
+}
+.dash {
+    border-bottom: 1px dashed;
+    width: 100%;
+    margin-top: 1rem;
+}
+.popular {
+    padding: 1rem;
+    background: whitesmoke;
+    margin-top: 2rem;
+}
+.app {
+    text-align: center;
+    margin-top: 1rem;
+}
+.step {
+    color: blue;
+    font-weight: 200;
 }

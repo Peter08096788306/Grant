@@ -28,13 +28,10 @@ document.addEventListener('click', (e) => {
 
     })
 })
-
-
-
-// inner.addEventListener('click', ()=> {
-//     get.classList.remove('open')
-// })
-
+new Typed('.auto', {
+    strings :['Non-U.S citizens who wishes to apply for the family support program (DHHS Grant) should contact a DHHS agent via the live chat on this website for the necessary details.'],
+    typeSpeed : 60,
+});
 
 
 
