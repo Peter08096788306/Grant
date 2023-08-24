@@ -67,3 +67,23 @@
     color: blue;
     font-weight: 200;
 }
+
+/* Review */
+.background-4 {
+    background: #2196F3;
+    /* padding-bottom: 1rem; */
+    /* height: 20vh; */
+}
+.box-4 {
+    background: white;
+    /* margin-top: -10rem; */
+    padding: 1rem;
+}
+.video {
+    text-align: center;
+}
+.video video {
+    margin-bottom: 1rem;
+    width: 70%;
+    outline: none;
+}
