@@ -12,7 +12,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-blend-mode: v; */
+    height: 60vh;
+}
+.body::before {
+    content: '';
+    position: absolute;
+    /* background: red; */
+    width: 100%;
+    top: 0;
     height: 60vh;
 }
 .header {

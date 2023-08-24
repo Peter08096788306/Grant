@@ -59,4 +59,25 @@
         background: whitesmoke;
         margin-top: 66rem;
     }
+    .box-4 {
+        background: white;
+        width: 70%;
+        margin: auto;
+        position: absolute;
+        left: 15%;
+        top: 40%;
+        /* margin-top: -10rem; */
+        padding: 1rem;
+    }
+    .background-4 {
+        background: #2196F3;
+        padding-bottom: 1rem;
+        /* padding-top: 14rem; */
+        height: 1000vh;
+    }
+    .video video {
+        margin-bottom: 1rem;
+        width: 50%;
+        outline: none;
+    }
 }
