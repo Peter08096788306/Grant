@@ -6,3 +6,12 @@
     /* background-blend-mode: v; */
     height: 40vh;
 }
+.body::before {
+    content: '';
+    position: absolute;
+    filter: blur(10px);
+    background-color: #00000057;
+    width: 100%;
+    top: 0;
+    height: 40vh;
+}
