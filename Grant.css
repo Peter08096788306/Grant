@@ -13,11 +13,14 @@ body {
     background-size: cover;
     background-position: center;
     height: 60vh;
+    position: relative;
+    padding: 2em 0;
 }
 .body::before {
     content: '';
     position: absolute;
-    /* background: red; */
+    filter: blur(10px);
+    background-color: #00000057;
     width: 100%;
     top: 0;
     height: 60vh;
@@ -26,6 +29,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    position: absolute;
+    width: 100%;
 }
 .header a i {
     color: #fff;
@@ -67,6 +72,10 @@ body {
 nav ~ body {
     /* position: fixed; */
 }
+.Burger {
+    /* width: 100%; */
+
+}
 nav {
     background-color: white;
     height: 100vh;
@@ -76,7 +85,8 @@ nav {
     padding: 1rem;
     padding-top: 4rem;
     left: 0;
-    box-shadow:  10px -10px 100px 100px rgba(17, 16, 16, 0.3);
+    /* z-index: ; */
+    /* box-shadow:  10px -10px 100px 100px rgba(17, 16, 16, 0.3); */
     transition: all .3s linear;
     transform: translateX(-100%);
     width: 55%;
@@ -108,8 +118,11 @@ nav ul {
     letter-spacing: 2px;
 }
 .content {
+    position: absolute;
+    /* z-index: ; */
+    left: 15%;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 7rem;
 }
 .content h2 {
     font-size: 27px;
@@ -123,9 +136,12 @@ nav ul {
 .list ul {
     list-style-type: none;
     display: flex;
+    position: absolute;
+    left: 18%;
+    /* top: 20%; */
     justify-content: center;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 .list a {
     text-decoration: none;
