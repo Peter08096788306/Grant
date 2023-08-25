@@ -16,7 +16,7 @@ body {
     position: relative;
     padding: 2em 0;
 }
-.body::before {
+/* .body::before {
     content: '';
     position: absolute;
     filter: blur(10px);
@@ -24,7 +24,7 @@ body {
     width: 100%;
     top: 0;
     height: 60vh;
-}
+} */
 .header {
     display: flex;
     justify-content: space-between;
